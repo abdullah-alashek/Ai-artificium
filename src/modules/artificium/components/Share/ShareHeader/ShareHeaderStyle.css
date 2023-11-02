@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600&display=swap');
+
+
+.aj-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  align-self: stretch;
+}
+.aj-header .aj-header-title {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  align-self: stretch;
+}
+.aj-header .aj-header-title h1 {
+  flex: 1 0 0;
+  color: var(--noble-black-0, #FFF);
+  text-align: start;
+  font-family: Plus Jakarta Sans;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2rem;
+  margin: 0;
+}
+.aj-header .aj-header-title .aj-header-close {
+  display: flex;
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0.5rem 1rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 0.625rem;
+}
+.aj-header .aj-header-title .aj-header-close svg {
+  cursor: pointer;
+  width: 1.5rem;
+  height: 1.5rem;
+  flex-shrink: 0;
+}
+.aj-header .aj-header-content p{
+  color: var(--noble-black-300, #9B9C9E);
+  font-family: Plus Jakarta Sans;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5rem;
+  letter-spacing: 0.00938rem;
+  text-align: start;
+  margin: 0;
+}
