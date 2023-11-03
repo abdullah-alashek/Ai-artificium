@@ -1,10 +1,26 @@
 import './ShareUsersStyle.css'
 
 const ShareUsers = () => {
+  // Showing and Hiding Dropdown when clicking on the input field
+  document.onclick = (div) => {
+    if(
+      div.target.className !== 'aj-dropdown-user' 
+      && div.target.className !== 'aj-dropdown-header'
+      && div.target.className !== 'aj-share-dropdown'
+      ) {
+        let dropdown = document.querySelector('.aj-share-dropdown');
+        dropdown.classList.remove('aj-dropdown-shown')
+      }
+      if(div.target.className === 'aj-users-input-field') {
+        let dropdown = document.querySelector('.aj-share-dropdown');
+        dropdown.classList.add('aj-dropdown-shown')
+      }
+      
+  }
   return (
     <div className='aj-share-users'>
       <div className="aj-users-input">
-        <input type="text" />
+        <input className='aj-users-input-field' type="text" />
         <div className="aj-chips">
           {/* Chips will be placed here when clicking on a User */}
         </div>

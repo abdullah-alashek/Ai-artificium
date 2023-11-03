@@ -7,9 +7,6 @@
   cursor: pointer;
   transition: .3s;
 }
-.aj-list-user:hover {
-  transform: scale(1.05);
-}
 .aj-user-data {
   display: flex;
   align-items: center;

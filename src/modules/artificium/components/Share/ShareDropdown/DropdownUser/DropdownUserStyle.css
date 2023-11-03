@@ -1,0 +1,50 @@
+.aj-dropdown-user {
+  display: flex;
+  padding: 0.75rem;
+  align-items: center;
+  align-self: stretch;
+  border-radius: 0.75rem;
+  gap: 1rem;
+  transition: .3s;
+  cursor: pointer;
+}
+.aj-dropdown-user:hover {
+  border-radius: 0.75rem;
+  border: 1px solid var(--glass-stroke, rgba(255, 255, 255, 0.08));
+  background: var(--glass-fill, linear-gradient(118deg, rgba(215, 237, 237, 0.16) -47.79%, rgba(204, 235, 235, 0.00) 100%));
+  box-shadow: 0px 1px 3px 0px rgba(6, 7, 8, 0.05), 0px 1px 2px -1px rgba(6, 7, 8, 0.05), 0px 2px 12px 0px rgba(26, 29, 33, 0.64) inset;
+}
+.aj-dropdown-user img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 1.25rem;
+  background: var(lightgray 50% / cover no-repeat);
+}
+.aj-dropdown-user .aj-user-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.25rem;
+}
+.aj-dropdown-user .aj-user-text h3 {
+  color: #FFF;
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.5rem;
+  letter-spacing: 0.00938rem;
+  margin: 0;
+}
+.aj-dropdown-user .aj-user-text p {
+  color: var(--stem-green-500, #B6F09C);
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.125rem;
+  letter-spacing: 0.00938rem;
+  margin: 0;
+}

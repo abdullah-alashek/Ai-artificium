@@ -2,37 +2,8 @@ import './ListUserStyle.css'
 
 const ListUser = ({title, username, url, owner, editor, viewer}) => {
 
-  // Adding users to Array
-  let userChipsArray = [];
-  
-  let addUserToArray = (title, url) => {
-    userChipsArray.push (
-      {
-        title: title,
-        url: url,
-      }
-      );
-    showUser();
-  }
-  // adding users to screen
-  let showUser = () => {
-    let chips = document.querySelector(".aj-chips");
-    for(let i = 0; i < userChipsArray.length; i++) {
-      chips.innerHTML +=   
-      `
-        <div class='aj-chip'>
-          <img src=${userChipsArray[i].url} alt=${userChipsArray[i].title} />
-          <p>${userChipsArray[i].title}</p>
-          <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 8 8" fill="none">
-            <path d="M1.6665 1.66666L6.33317 6.33332M6.33317 1.66666L1.6665 6.33332" stroke="#686B6E" stroke-width="1.5" stroke-linecap="round"/>
-          </svg>
-        </div>
-      `
-    }
-  }
-
   return (
-    <div className='aj-list-user' onClick={() => addUserToArray(title, url)} key={title}>
+    <div className='aj-list-user'>
       <div className="aj-user-data">
         <img src={url} alt="avatar" />
         <div className="aj-data-name">
