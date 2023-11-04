@@ -1,0 +1,19 @@
+.Comop4{
+padding-top: 10px;
+width: 100%;
+background: var(--noble-black-800, #0D0F10);
+}
+.props{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 24px;
+    padding-top: 30px;
+}
+@media screen and (min-width:700px) {
+    .props{
+        flex-wrap: wrap;
+        align-content: center;
+    }
+    
+}

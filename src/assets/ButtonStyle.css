@@ -1,0 +1,18 @@
+.button{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding-top: 30px;
+}
+.button button{
+    display: flex;
+    height: 32px;
+    padding: 8px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    border-radius: 8px;
+    background: var(--noble-black-600, #1A1D21);
+    color: #686B6E;
+    border: unset;
+}

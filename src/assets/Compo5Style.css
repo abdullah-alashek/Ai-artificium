@@ -1,0 +1,45 @@
+.Compo5{
+    padding-top: 10px;
+    width: 100%;
+    border-radius: 8px;
+    background: var(--noble-black-800, #0D0F10);
+}
+.MH{
+    display: flex;
+    height: 48px;
+    padding: 12px 16px;
+    align-items: center;
+    gap: 16px;
+}
+h5{
+    color: var(--noble-black-300, #9B9C9E);
+}
+.yallow{
+    color: #B6F09C;
+}
+.parple{
+    color: purple;
+}
+.MH img{
+    width: 28px;
+    height: 28px;
+    filter: drop-shadow(0px 4px 6px rgba(77, 98, 229));
+}
+.MH button{
+    display: flex;
+    height: 32px;
+    padding: 0px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    background:var(--noble-black-800, #0D0F10);;
+    border: unset;  
+    color: var(--noble-black-400, #686B6E);
+    font-family: Plus Jakarta Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0.15px;
+}
+
