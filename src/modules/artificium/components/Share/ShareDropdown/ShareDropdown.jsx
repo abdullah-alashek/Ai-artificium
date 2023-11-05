@@ -6,6 +6,7 @@ import Avatar6 from './../../../assets/Avatar6.svg'
 import DropdownUser from './DropdownUser/DropdownUser'
 
 const ShareDropdown = () => {
+
   return (
     <div className='aj-share-dropdown' id='aj-share-dropdown'>
       <DropdownHeader />

@@ -11,11 +11,10 @@ const ShareUsers = () => {
         let dropdown = document.querySelector('.aj-share-dropdown');
         dropdown.classList.remove('aj-dropdown-shown')
       }
-      if(div.target.className === 'aj-users-input-field') {
-        let dropdown = document.querySelector('.aj-share-dropdown');
-        dropdown.classList.add('aj-dropdown-shown')
-      }
-      
+    if(div.target.className === 'aj-users-input-field') {
+      let dropdown = document.querySelector('.aj-share-dropdown');
+      dropdown.classList.add('aj-dropdown-shown')
+    }
   }
   return (
     <div className='aj-share-users'>

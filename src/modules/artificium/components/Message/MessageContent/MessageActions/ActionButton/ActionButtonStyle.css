@@ -1,0 +1,30 @@
+*{
+  transition: .3s;
+}
+.aj-action-button {
+  display: flex;
+  height: 2rem;
+  padding: 0.5rem 0.75rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.375rem;
+  border-radius: 0.5rem;
+  background: var(--noble-black-600, #1A1D21);
+  cursor: pointer;
+  position: relative;
+}
+.aj-action-button p {
+  color: var(--noble-black-300, #9B9C9E);
+
+  /* Body/S/SemiBold */
+  font-family: Plus Jakarta Sans;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.125rem; /* 150% */
+  letter-spacing: 0.00938rem;
+}
+.aj-action-button svg {
+  width: 1rem;
+  height: 1rem;
+}
