@@ -1,4 +1,4 @@
-import './../assets/ButtonStyle.css';
+import './../../artificium/assets/ButtonStyle.css';
 
 const Button = (props) => {
   return (

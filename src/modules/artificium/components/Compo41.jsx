@@ -1,4 +1,4 @@
-import './../assets/Compo41Style.css';
+import './../../artificium/assets/Compo41Style.css';
 
 const Compo41 = (props) => {
   return (

@@ -1,5 +1,5 @@
-import './../assets/Compo5Style.css';
-import img from './../assets/bulb2.png';
+import './../../artificium/assets/Compo5Style.css';
+import img from './../modules./../../artificium/assets/bulb2.png';
 const Compo5 = () => {
   return (
     <div className="Compo5">
