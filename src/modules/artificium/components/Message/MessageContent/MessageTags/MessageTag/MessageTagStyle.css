@@ -1,0 +1,38 @@
+.aj-Message-tag {
+  display: flex;
+  height: 2.5rem;
+  padding: 0.75rem 0.5rem 0.75rem 0.75rem;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 0.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  background: linear-gradient(118deg, rgba(215, 237, 237, 0.16) -47.79%, rgba(204, 235, 235, 0.00) 100%);
+  cursor: pointer;
+}
+.aj-Message-tag:hover {
+  background: linear-gradient(118deg, rgb(215 237 237 / 29%) -47.79%, rgba(204, 235, 235, 0.00) 100%);
+}
+.aj-Message-tag h3 {
+  color:#CDCECF;
+  font-family: Plus Jakarta Sans;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.5rem;
+  letter-spacing: 0.00938rem;
+}
+.aj-svg-container {
+  display: flex;
+  width: 2rem;
+  height: 2rem;
+  padding: 0.5rem 0.75rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.375rem;
+  border-radius: 0.5rem;
+}
+.aj-svg-container svg {
+  width: 1rem;
+  height: 1rem;
+  flex-shrink: 0;
+}

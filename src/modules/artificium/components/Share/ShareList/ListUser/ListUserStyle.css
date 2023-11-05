@@ -1,0 +1,91 @@
+.aj-list-user {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: .3s;
+}
+.aj-user-data {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.aj-user-data img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 1.25rem;
+  background: var(lightgray 50% / cover no-repeat);
+}
+.aj-user-data .aj-data-name {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.25rem;
+}
+.aj-user-data .aj-data-name h3 {
+  color: #FFF;
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.5rem;
+  letter-spacing: 0.00938rem;
+  margin: 0;
+}
+.aj-user-data .aj-data-name p {
+  color: var(--stem-green-500, #B6F09C);
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.125rem;
+  letter-spacing: 0.00938rem;
+  margin: 0;
+}
+.aj-user-power button {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  height: 2rem;
+  padding: 0.75rem;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 0.75rem;
+  border-top: 1px solid var(--glass-stroke, rgba(255, 255, 255, 0.08));
+  background: var(--glass-fill, linear-gradient(118deg, rgba(215, 237, 237, 0.16) -47.79%, rgba(204, 235, 235, 0.00) 100%));
+  border: unset;
+  cursor: pointer;
+  font-family: Plus Jakarta Sans;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.125rem;
+  letter-spacing: 0.00938rem;
+}
+.aj-glow1 {
+  width: 2.5rem;
+  height: 2.5rem;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  filter: blur(8px);
+}
+.aj-glow2 {
+  width: 1.375rem;
+  height: 1.375rem;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.aj-owner {
+  color: var(--stem-green-500, #B6F09C);
+}
+.aj-editor {
+  color: var(--heisenberg-blue-500, #82DBF7);
+}
+.aj-viewer {
+  color: var(--day-blue-300, #A6B0F2);
+}

@@ -1,0 +1,131 @@
+:root {
+  --green-color: #B6F09C;
+}
+.aj-share-users {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1.5rem;
+  align-self: stretch;
+}
+.aj-users-input {
+  display: flex;
+  flex: 1 0 0;
+  height: 3rem;
+  padding: 0rem 1rem;
+  align-items: center;
+  gap: 0.75rem;
+  align-self: stretch;
+  border-radius: 0.5rem;
+  border: 1px solid#363A3D;
+  background:#1A1D21;
+  position: relative;
+}
+.aj-users-input input {
+  flex: 1 0 0;
+  color: #CDCECF;
+  font-family: Plus Jakarta Sans;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5rem;
+  letter-spacing: 0.00938rem;
+  background-color: transparent;
+  border: unset;
+  outline: unset;
+}
+.aj-chips {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.25rem;
+  flex: 1 0;
+  overflow: auto;
+  position: absolute;
+  width: fit-content;
+  max-width: calc(100% - 120px);
+}
+.aj-chips::-webkit-scrollbar {
+  display: none;
+}
+.aj-chip {
+  display: flex;
+  height: 2rem;
+  padding: 0.75rem;
+  align-items: center;
+  gap: 0.375rem;
+  border-radius: 0.75rem;
+  border: 1px solid var(--glass-stroke, rgba(255, 255, 255, 0.08));
+  background: var(--glass-fill, linear-gradient(118deg, rgba(215, 237, 237, 0.16) -47.79%, rgba(204, 235, 235, 0.00) 100%));
+}
+.aj-chip img {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 1.25rem;
+  background: var(lightgray 50% / cover no-repeat);
+}
+.aj-chip p {
+  color: var(--noble-black-300, #9B9C9E);
+  width: max-content;
+  /* Body/S/SemiBold */
+  font-family: Plus Jakarta Sans;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.125rem; /* 150% */
+  letter-spacing: 0.00938rem;
+}
+.aj-chip svg {
+  width: 0.5rem;
+  height: 0.5rem;
+  cursor: pointer;
+}
+.aj-trail-text {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  color: var(--green-color, #B6F09C);
+  text-align: right;
+  font-family: Plus Jakarta Sans;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5rem;
+  letter-spacing: 0.00938rem;
+  cursor: pointer;
+}
+.aj-trail-text svg {
+  width: 0.75rem;
+  height: 0.75rem;
+}
+.aj-trail-text:hover svg {
+  animation: jump .3s ease-in-out;
+}
+
+@keyframes jump {
+  50% {
+      transform: translateY(3px);
+  }
+}
+.aj-share-users button {
+  display: flex;
+  height: 3rem;
+  padding: 0.5rem 1.5rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
+  border-radius: 0.75rem;
+  background:var(--green-color, #B6F09C);
+  border: unset;
+  color:#0C1132;
+  font-family: Plus Jakarta Sans;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.5rem;
+  letter-spacing: 0.00938rem;
+  cursor: pointer;
+}
+.aj-share-users button svg {
+  width: 1.5rem;
+  height: 1.5rem;
+}

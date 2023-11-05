@@ -1,0 +1,30 @@
+.aj-dropdown-item {
+  display: flex;
+  padding: 0.75rem;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 0.75rem;
+  gap: 1rem;
+  cursor: pointer;
+  width: 14.25rem;
+}
+.aj-dropdown-item:hover {
+  border-radius: 0.75rem;
+  scale: 1.01;
+  background: var(--glass-fill, linear-gradient(118deg, rgba(215, 237, 237, 0.16) -47.79%, rgba(204, 235, 235, 0.00) 100%));
+  box-shadow: 0px 1px 3px 0px rgba(6, 7, 8, 0.05), 0px 1px 2px -1px rgba(6, 7, 8, 0.05), 0px 2px 12px 0px rgba(26, 29, 33, 0.64) inset;
+}
+.aj-dropdown-item img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.aj-dropdown-item p {
+  color: var(--noble-black-0, #FFF);
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.5rem;
+  letter-spacing: 0.00938rem;
+}
