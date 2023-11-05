@@ -1,5 +1,5 @@
 .Compo5{
-    padding-top: 10px;
+    padding: 20px 0px 10px 0px;
     width: 100%;
     border-radius: 8px;
     background: var(--noble-black-800, #0D0F10);
@@ -41,5 +41,13 @@ h5{
     font-weight: 600;
     line-height: 18px;
     letter-spacing: 0.15px;
+}
+
+
+@media screen and (min-width:700px) {
+    .MH h5{
+        flex-wrap: wrap;
+        align-content: flex-start;
+    }
 }
 

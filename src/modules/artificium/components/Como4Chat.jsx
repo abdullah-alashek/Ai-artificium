@@ -1,5 +1,5 @@
-import './../assets/ChatStyle.css';
-import copy from './../assets/copy.png';
+import './../../artificium/assets/ChatStyle.css';
+import copy from './../modules./../../artificium/assets/copy.png';
 const Como4Chat = (props) => {
   return (
     <div className='arti1'>
