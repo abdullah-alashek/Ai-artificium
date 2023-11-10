@@ -24,10 +24,9 @@
   gap: 0.25rem;
 }
 .aj-user-data .aj-data-name h3 {
-  color: #FFF;
+  color: var(--main-text-color);
   text-align: center;
-  font-family: Plus Jakarta Sans;
-  font-size: 1rem;
+  font-size: var(--p-font-size);
   font-style: normal;
   font-weight: 600;
   line-height: 1.5rem;
@@ -35,10 +34,9 @@
   margin: 0;
 }
 .aj-user-data .aj-data-name p {
-  color: var(--stem-green-500, #B6F09C);
+  color: var(--main-color);
   text-align: center;
-  font-family: Plus Jakarta Sans;
-  font-size: 0.75rem;
+  font-size: var(--sec-p-font-size);
   font-style: normal;
   font-weight: 500;
   line-height: 1.125rem;
@@ -55,11 +53,10 @@
   gap: 0.5rem;
   border-radius: 0.75rem;
   border-top: 1px solid var(--glass-stroke, rgba(255, 255, 255, 0.08));
-  background: var(--glass-fill, linear-gradient(118deg, rgba(215, 237, 237, 0.16) -47.79%, rgba(204, 235, 235, 0.00) 100%));
+  background: var(--background-card);
   border: unset;
   cursor: pointer;
-  font-family: Plus Jakarta Sans;
-  font-size: 0.75rem;
+  font-size: var(--sec-p-font-size);
   font-style: normal;
   font-weight: 600;
   line-height: 1.125rem;
@@ -81,7 +78,7 @@
   top: 0;
 }
 .aj-owner {
-  color: var(--stem-green-500, #B6F09C);
+  color: var(--main-color);
 }
 .aj-editor {
   color: var(--heisenberg-blue-500, #82DBF7);

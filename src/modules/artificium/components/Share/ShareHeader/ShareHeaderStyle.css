@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600&display=swap');
-
-
 .aj-header {
   display: flex;
   flex-direction: column;
@@ -16,9 +13,8 @@
 }
 .aj-header .aj-header-title h1 {
   flex: 1 0 0;
-  color: var(--noble-black-0, #FFF);
+  color: var(--main-text-color);
   text-align: start;
-  font-family: Plus Jakarta Sans;
   font-size: 1.5rem;
   font-style: normal;
   font-weight: 600;
@@ -42,9 +38,8 @@
   flex-shrink: 0;
 }
 .aj-header .aj-header-content p{
-  color: var(--noble-black-300, #9B9C9E);
-  font-family: Plus Jakarta Sans;
-  font-size: 1rem;
+  color: var(--p-text-color);
+  font-size: var(--p-font-size);
   font-style: normal;
   font-weight: 500;
   line-height: 1.5rem;

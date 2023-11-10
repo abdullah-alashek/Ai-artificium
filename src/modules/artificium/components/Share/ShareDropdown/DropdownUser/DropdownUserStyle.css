@@ -11,7 +11,7 @@
 .aj-dropdown-user:hover {
   border-radius: 0.75rem;
   border: 1px solid var(--glass-stroke, rgba(255, 255, 255, 0.08));
-  background: var(--glass-fill, linear-gradient(118deg, rgba(215, 237, 237, 0.16) -47.79%, rgba(204, 235, 235, 0.00) 100%));
+  background: var(--background-card);
   box-shadow: 0px 1px 3px 0px rgba(6, 7, 8, 0.05), 0px 1px 2px -1px rgba(6, 7, 8, 0.05), 0px 2px 12px 0px rgba(26, 29, 33, 0.64) inset;
 }
 .aj-dropdown-user img {
@@ -27,10 +27,9 @@
   gap: 0.25rem;
 }
 .aj-dropdown-user .aj-user-text h3 {
-  color: #FFF;
+  color: var(--main-text-color);
   text-align: center;
-  font-family: Plus Jakarta Sans;
-  font-size: 1rem;
+  font-size: var(--p-font-size);
   font-style: normal;
   font-weight: 600;
   line-height: 1.5rem;
@@ -38,10 +37,9 @@
   margin: 0;
 }
 .aj-dropdown-user .aj-user-text p {
-  color: var(--stem-green-500, #B6F09C);
+  color: var(--main-color);
   text-align: center;
-  font-family: Plus Jakarta Sans;
-  font-size: 0.75rem;
+  font-size: var(--sec-p-font-size);
   font-style: normal;
   font-weight: 500;
   line-height: 1.125rem;

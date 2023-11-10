@@ -6,7 +6,7 @@
   gap: 0.5rem;
   border-radius: 0.5rem;
   border-top: 1px solid rgba(255, 255, 255, 0.08);
-  background: linear-gradient(118deg, rgba(215, 237, 237, 0.16) -47.79%, rgba(204, 235, 235, 0.00) 100%);
+  background: var(--background-card);
   cursor: pointer;
 }
 .aj-Message-tag:hover {
@@ -14,8 +14,7 @@
 }
 .aj-Message-tag h3 {
   color:#CDCECF;
-  font-family: Plus Jakarta Sans;
-  font-size: 1rem;
+  font-size: var(--p-font-size);
   font-style: normal;
   font-weight: 600;
   line-height: 1.5rem;
