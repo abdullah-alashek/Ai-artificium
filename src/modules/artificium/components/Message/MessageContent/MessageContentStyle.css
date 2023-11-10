@@ -8,9 +8,8 @@
 }
 .aj-message-content .aj-content-text {
   align-self: stretch;
-  color: var(--noble-black-300, #9B9C9E);
-  font-family: Plus Jakarta Sans;
-  font-size: 1rem;
+  color: var(--p-text-color);
+  font-size: var(--p-font-size);
   font-style: normal;
   font-weight: 500;
   line-height: 1.5rem;

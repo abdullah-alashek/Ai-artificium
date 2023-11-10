@@ -20,12 +20,15 @@
   flex-shrink: 0;
   border-radius: 0.75rem;
   background: var(--glass-fill, linear-gradient(118deg, rgba(215, 237, 237, 0.16) -47.79%, rgba(204, 235, 235, 0.00) 100%));
-  
-  /* Glass/Effects */
   box-shadow: 0px 8px 12px 0px rgba(255, 255, 255, 0.08) inset, 0px 24px 24px -16px rgba(0, 0, 0, 0.12), 16px 24px 64px -24px rgba(255, 255, 255, 0.08) inset;
   position: absolute;
   top: 0.75rem;
   right: 0.75rem;
+  cursor: pointer;
+  transition: .1s;
+}
+.aj-message-image .aj-image-icon:active {
+  box-shadow: 0px 8px 12px 0px rgb(255 255 255 / 14%) inset, 0px 24px 24px -16px rgb(255 255 255 / 23%), 16px 24px 64px -24px rgb(255 255 255 / 18%) inset;
 }
 .aj-message-image .aj-image-icon svg {
   width: 1.25rem;

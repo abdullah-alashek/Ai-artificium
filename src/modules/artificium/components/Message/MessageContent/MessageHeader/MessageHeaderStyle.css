@@ -13,14 +13,11 @@
 }
 .aj-header-text {
   align-self: stretch;
-  color: var(--noble-black-300, #9B9C9E);
-
-  /* Body/L/Medium */
-  font-family: Plus Jakarta Sans;
-  font-size: 1rem;
+  color: var(--p-text-color, #9B9C9E);
+  font-size: var(--p-font-size);
   font-style: normal;
   font-weight: 500;
-  line-height: 1.5rem; /* 150% */
+  line-height: 1.5rem;
   letter-spacing: 0.00938rem;
 }
 .aj-head-text {
@@ -29,33 +26,26 @@
   gap: 1rem;
 }
 .aj-head-text h3 {
-  color: #FFF;
+  color: var(--main-text-color);
   text-align: center;
-  
-  /* Body/L/SemiBold */
-  font-family: Plus Jakarta Sans;
-  font-size: 1rem;
+  font-size: var(--p-font-size);
   font-style: normal;
   font-weight: 600;
-  line-height: 1.5rem; /* 150% */
+  line-height: 1.5rem;
   letter-spacing: 0.00938rem;
 }
 .aj-head-text p {
-  color: var(--noble-black-400, #686B6E);
+  color: var(--span-text-color, #686B6E);
   text-align: center;
-  
-  /* Body/S/Medium */
-  font-family: Plus Jakarta Sans;
   font-size: 0.75rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 1.125rem; /* 150% */
+  line-height: 1.125rem;
   letter-spacing: 0.00938rem;
 }
 .aj-header-head svg {
-  color: var(--noble-black-400, #686B6E);
+  color: var(--span-text-color, #686B6E);
   text-align: center;
-  font-family: Plus Jakarta Sans;
   font-size: 0.75rem;
   font-style: normal;
   font-weight: 500;

@@ -13,9 +13,8 @@
   cursor: pointer;
 }
 .aj-list-button p {
-  color: var(--noble-black-400, #686B6E);
-  font-family: Plus Jakarta Sans;
-  font-size: 0.75rem;
+  color: var(--span-text-color);
+  font-size: var(--sec-p-font-size);
   font-style: normal;
   font-weight: 600;
   line-height: 1.125rem;
